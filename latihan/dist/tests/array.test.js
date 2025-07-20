@@ -11,4 +11,12 @@ describe('Array', function () {
         const hobbies = ["Read", "Write"];
         console.info(hobbies);
     });
+    //tuple
+    it('should support tuple', function () {
+        const person = ["Eko", "Khannedy", 30];
+        console.info(person);
+        console.info(person[0]);
+        console.info(person[1]);
+        console.info(person[2]);
+    });
 });
